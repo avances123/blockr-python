@@ -38,7 +38,11 @@ class TestApi(unittest.TestCase):
     def test_coin_info(self):
         """ Testing the coin info HTTP call """
 
-
+    def test_address_balance(self):
+        self.assertEqual(self.api.address_balance(
+            ["1PnhYci3BxgbnH3nDNwyb3uQvKxCgvkXy", "1PTDNVxrVwpwP6xUXqxB3uGTGmKJJ15U3f" ]),
+            json.load('fixtures/address_balance.json')
+        )
 
 
 if __name__ == '__main__':

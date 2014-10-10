@@ -1,0 +1,17 @@
+{
+    "status": "success", 
+    "message": "", 
+    "code": 200, 
+    "data": [
+        {
+            "balance": 0, 
+            "balance_multisig": 0, 
+            "address": "1PnhYci3BxgbnH3nDNwyb3uQvKxCgvkXy"
+        }, 
+        {
+            "balance": 0, 
+            "balance_multisig": 0, 
+            "address": "1PTDNVxrVwpwP6xUXqxB3uGTGmKJJ15U3f"
+        }
+    ]
+}
